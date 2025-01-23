@@ -1,0 +1,33 @@
+#nav2 {
+  height: 100vh;
+  width: 100vw;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.inanimation {
+  animation: inanimation 1s ease-out 0s 1 normal forwards;
+}
+
+.outanimation {
+  animation: outanimation 1s ease-out 0s 1 normal forwards;
+}
+
+@keyframes inanimation {
+  from {
+    transform: translate(100vw, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes outanimation {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(100vw, 0);
+  }
+}
