@@ -9,7 +9,7 @@ export default function MobileNavbar() {
   }
   return (
     <nav id='nav2'>
-      <button onClick={hideMobileNav}>Hide Nav</button>
+      <button style={{ backgroundColor: "transparent", border: "none" }} onClick={hideMobileNav}><i style={{ backgroundColor: "#1e242b", fontSize: "30px", color: "white" }} class="ri-close-large-line"></i></button>
     </nav>
   )
 }

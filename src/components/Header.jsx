@@ -13,7 +13,7 @@ export default function Header() {
     <header>
       <h1>Nasir</h1>
       <Navbar></Navbar>
-      <button onClick={showMobileNav}>Show Nav</button>
+      <button style={{ backgroundColor: "transparent", border: "none" }} onClick={showMobileNav}><i style={{ backgroundColor: "#1e242b", fontSize: "30px", color: "white" }} className="ri-align-justify"></i></button>
       <MobileNavbar></MobileNavbar>
     </header>
   )
